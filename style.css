@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header { 
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color: white;
+    align-items: center;
+}
+ ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+ }
+
+ a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .logo {
+    width: 80px;
+    height: 80px;
+    display: flex;
+ }
