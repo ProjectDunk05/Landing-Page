@@ -118,4 +118,24 @@
   text-align: center;
  }
 
- 
+ .quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 20px 250px;
+ }
+
+ .quote p {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+ }
+
+ .credit {
+  display: flex;
+  align-self: flex-end;
+  margin-top: -60px;
+  font-weight: 900;
+  font-size: 28px;
+ }
