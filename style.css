@@ -4,6 +4,10 @@
     min-height: 100vh;
 }
 
+* {
+  font-family: 'Roboto', sans-serif; 
+}
+
 .header { 
     display: flex;
     background-color: #1f2937;
@@ -44,11 +48,10 @@
 
  .main-title .right {
    display: flex;
-   
  }
 
  .right img {
-   max-width: 100%;
+   max-width:  100%;
    max-height: 100%;
    object-fit: contain;
  }
@@ -80,3 +83,39 @@
    padding: 10px 20px;
    border-radius: 15px;
  }
+
+ .information {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 250px;
+ }
+
+ .information .container {
+  display: flex;
+  justify-content: space-between;
+
+ }
+
+ .img-container {
+  height: 150px;
+  width: 150px;
+  border: solid #3882F6 5px;
+  border-radius: 15px;
+ }
+
+ .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+ }
+
+ h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+ }
+
+ 
