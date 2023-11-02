@@ -12,7 +12,7 @@
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    padding: 10px 150px;
+    padding: 20px 300px;
     color: white;
     align-items: center;
 }
@@ -37,7 +37,7 @@
    display: flex;
    background-color: #1f2937;
    justify-content: space-between;
-   padding: 20px 150px;
+   padding: 40px 300px;
  }
 
  .main-title .left {
@@ -87,7 +87,7 @@
  .information {
   display: flex;
   flex-direction: column;
-  padding: 20px 250px;
+  padding: 40px 500px;
  }
 
  .information .container {
@@ -123,7 +123,7 @@
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  padding: 20px 250px;
+  padding: 40px 500px;
  }
 
  .quote p {
@@ -143,7 +143,7 @@
 
  .sign-up-section {
   display: flex;
-  padding: 60px 150px;
+  padding: 120px 300px;
  }
 
  .sign-up-section .container {
@@ -185,4 +185,12 @@
  .bottom {
   color: #F9FAF8;
   margin-top: 0;
+ }
+
+ .footer {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  color: #E5E7EB;
+  padding: 40px 0px;
  }
