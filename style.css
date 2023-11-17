@@ -210,3 +210,9 @@ body {
   color: #3882F6;
   box-shadow: 3px 3px 20px #3882F6,
   3px 2px 20px #3882F6 }
+
+  .img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
