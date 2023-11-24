@@ -115,6 +115,12 @@ body {
   border-radius: 15px;
  }
 
+ .img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
  .item {
   display: flex;
   flex-direction: column;
@@ -206,13 +212,14 @@ body {
   padding: 40px 0px;
  }
 
- button:hover {
-  color: #3882F6;
+ .left button:hover {
+  color: #F9FAF8;
   box-shadow: 3px 3px 20px #3882F6,
   3px 2px 20px #3882F6 }
 
-  .img-container img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
+  .container button:hover {
+    color: #F9FAF8;
+    box-shadow: 3px 3px 20px #F9FAF8,
+    3px 2px 20px #F9FAF8 }
+
+ 
