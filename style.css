@@ -225,4 +225,6 @@ body {
     box-shadow: 3px 3px 20px #F9FAF8,
     3px 2px 20px #F9FAF8 }
 
- 
+ a:hover {
+  color: #3882F6;
+ }
