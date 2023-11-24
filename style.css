@@ -53,12 +53,14 @@ body {
 
  .main-title .left {
    display: flex;
+   width: 50%;
    flex-direction: column;
    padding-right: 50px;
  }
 
  .main-title .right {
    display: flex;
+   width: 50%;
  }
 
  .right img {
@@ -81,6 +83,7 @@ body {
    color: #E5E7EB;
    display: flex;
    flex: 1 1 auto;
+   margin-top: 0;
  }
 
  .left button {
